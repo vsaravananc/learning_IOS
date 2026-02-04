@@ -137,37 +137,42 @@ struct HomeView : View {
     
     
     private func locationView(image:String = "locations", text: String) -> some View {
-        ZStack(alignment: .bottomLeading){
-            Image(image)
-                .resizable()
-                .scaledToFit()
-                .frame(width: 200,height: 260)
-                .cornerRadius(26)
-            
-            Text(text).padding(.all,4)
-                .background(Color.black.opacity(0.8))
-                .foregroundStyle(Color.white)
-                .cornerRadius(10)
-                .font(.footnote)
-                .fontDesign(.default)
-                .offset(x:10,y: -50)
-            
-            Text("⭐️ 4.6").padding(.all,4)
-                .background(Color.black.opacity(0.8))
-                .foregroundStyle(Color.white)
-                .cornerRadius(10)
-                .font(.caption2)
-                .fontDesign(.default)
-                .offset(x:10,y: -25)
-            
-            Image(systemName: "heart.fill")
-                .font(.headline)
-                .foregroundStyle(Color.red)
-                .padding(.all,4)
-                .background(Color.white)
-                .cornerRadius(20)
-                .offset(x: 155,y: -30)
+        NavigationLink {
+            DetailView()
+        } label: {
+            ZStack(alignment: .bottomLeading){
+                Image(image)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200,height: 260)
+                    .cornerRadius(26)
+                
+                Text(text).padding(.all,4)
+                    .background(Color.black.opacity(0.8))
+                    .foregroundStyle(Color.white)
+                    .cornerRadius(10)
+                    .font(.footnote)
+                    .fontDesign(.default)
+                    .offset(x:10,y: -50)
+                
+                Text("⭐️ 4.6").padding(.all,4)
+                    .background(Color.black.opacity(0.8))
+                    .foregroundStyle(Color.white)
+                    .cornerRadius(10)
+                    .font(.caption2)
+                    .fontDesign(.default)
+                    .offset(x:10,y: -25)
+                
+                Image(systemName: "heart.fill")
+                    .font(.headline)
+                    .foregroundStyle(Color.red)
+                    .padding(.all,4)
+                    .background(Color.white)
+                    .cornerRadius(20)
+                    .offset(x: 155,y: -30)
+            }
         }
+
     }
 }
 

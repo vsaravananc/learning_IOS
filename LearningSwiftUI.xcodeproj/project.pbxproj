@@ -12,7 +12,7 @@
 
 /* Begin PBXFileReference section */
 		EB3EA86B2F324A7000A49FE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		EB68AC292F21C35B000F592A /* LearningSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LearningSwiftUI.app; path = "/Users/saravananv/Downloads/iosXcodeLearning/LearningSwiftUI/build/Debug-iphoneos/LearningSwiftUI.app"; sourceTree = "<absolute>"; };
+		EB8DC69D2F338FBC008E8AE4 /* LearningSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LearningSwiftUI.app; path = "/Users/saravananv/Downloads/iosXcodeLearning/LearningSwiftUI/build/Debug-iphoneos/LearningSwiftUI.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -64,7 +64,7 @@
 			packageProductDependencies = (
 			);
 			productName = LearningSwiftUI;
-			productReference = EB68AC292F21C35B000F592A /* LearningSwiftUI.app */;
+			productReference = EB8DC69D2F338FBC008E8AE4 /* LearningSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
