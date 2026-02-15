@@ -12,7 +12,7 @@ struct LearningSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack{
-                SplashView()
+                TodoViewHome()
             }
         }
     }
